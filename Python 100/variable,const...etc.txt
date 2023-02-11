@@ -1,0 +1,8 @@
+a = 'piano!'
+a[:-1] #piano
+print(a)
+
+a+="!"
+print(a)
+
+print(a is a[:-1])

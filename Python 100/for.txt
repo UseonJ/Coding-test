@@ -1,0 +1,11 @@
+# 가로출력 이거 어케하는건데
+
+for i in range(10): print(i)
+
+for i in range(10): print(i,end=' ')
+
+for i in range(10): 
+	print(i,end='\t')
+	
+for i in range(10): print(i,end=' ')
+

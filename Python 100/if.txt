@@ -1,0 +1,45 @@
+a = 100
+
+if a <= 100 :
+		print(a)
+		
+if a == 100: print(a)
+
+#if a == 100: print(a):
+
+#if a == 100; print(a)
+
+print('-'*100)
+
+#[1]: if..else 조건문
+
+sleepy = 10
+
+if sleepy > 8:
+	print("I'm sleepy")
+else:
+	print("I/'m good")
+	
+#[2]: if.. elif .. else 조건문
+
+# [1] : 카페 메뉴 선택기
+#btn = 3
+#if btn == 1:
+#        print( '아메리카노' )
+#else:
+#        print( '메뉴는 1, 2, 3번중 하나를 골라주세요!' )
+#elif btn == 2:
+#        print( '카페라떼' )
+#elif btn == 3:
+#        print( '아이스 카페라떼' )
+
+
+# [2] : 카페 메뉴 선택기
+btn = 3
+if btn == 1:
+        print( '아메리카노' )
+elif btn == 2:
+        print( '카페라떼' )
+elif btn == 3:
+        print( '아이스 카페라떼' )
+
